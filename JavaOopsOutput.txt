@@ -1,0 +1,20 @@
+"C:\Program Files\Java\jdk-20\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=59648:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Dell\IdeaProjects\OOPS\out\production\OOPS OOPS
+Writing something
+blue
+red
+Constructor called
+Uday
+21
+Hemant
+47
+Hemant
+47
+Constructor called
+Sangeeta
+Yellow
+Walks on 4 legs
+Animal eats
+Walks on 2 legs
+BVM
+
+Process finished with exit code 0
