@@ -362,3 +362,24 @@ This code reads the contents of a file named "filename.txt" and prints each line
 
 This is a comprehensive overview of the provided Java code. It covers a wide range of concepts, including variables, data types, strings, arrays, loops, conditional statements, methods, user input, file I/O, and more.
 
+Object-Oriented Programming (OOP) is a programming paradigm that focuses on organizing code into objects, which are instances of classes. In Java, OOP concepts are used to structure and design programs in a modular and reusable manner. Let's analyze the provided code and explain the OOP concepts it demonstrates:
+
+1. Classes: In Java, classes are used to define objects. The code includes several classes like `Pen`, `Account`, `Student`, `Shape`, `Triangle`, `EquiTriangle`, `Circle`, `Animal`, `Horse`, and `Chicken`. Each class represents a blueprint for creating objects with specific properties and behaviors.
+
+2. Objects: Objects are instances of classes. For example, `Pen pen1 = new Pen();` creates an object `pen1` of the `Pen` class. The code also creates objects of other classes such as `Student`, `Triangle`, `Horse`, and `Chicken`.
+
+3. Encapsulation: Encapsulation is the process of bundling data (attributes) and methods (behaviors) together within a class. For example, in the `Pen` class, the attributes `color` and `type` are encapsulated along with the methods `write()` and `printColor()`.
+
+4. Inheritance: Inheritance allows one class to inherit properties and methods from another class. For example, the `Triangle` class extends the `Shape` class, inheriting its `color` attribute. Similarly, the `EquiTriangle` class extends the `Triangle` class, inheriting properties from both `Shape` and `Triangle`.
+
+5. Polymorphism: Polymorphism allows objects of different classes to be treated as objects of a common superclass. It allows overriding methods in subclasses. The `Triangle` and `EquiTriangle` classes demonstrate polymorphism by overriding the `area()` method inherited from the `Shape` class.
+
+6. Abstraction: Abstraction involves hiding unnecessary implementation details and providing only essential features. The `Animal` class is declared as abstract, which means it cannot be instantiated directly. It contains an abstract method `walk()` that must be implemented in its subclasses (`Horse` and `Chicken`).
+
+7. Interfaces: Interfaces define a contract for classes to implement certain methods. They enable multiple inheritance in Java. The code doesn't include any interfaces, but it mentions the concept briefly.
+
+8. Constructors: Constructors are special methods used to initialize objects when they are created. The `Student` class includes different constructors, such as the default constructor and parameterized constructors, allowing objects to be created with different initial values.
+
+9. Access Modifiers: Access modifiers control the visibility and accessibility of classes, methods, and variables. The code includes public, protected, and private access modifiers. For example, the `Account` class has public and private attributes (`name`, `email`, and `password`), and the `walk()` method in the `Animal` class has a default (package-private) access modifier.
+
+These are some of the key Object-Oriented Programming (OOP) concepts demonstrated in the provided code. Understanding and applying these concepts helps in writing organized, modular, and maintainable Java programs.
